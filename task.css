@@ -1,0 +1,375 @@
+.wrap {
+  color: #000;
+  font-family: Ultra;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+  position: absolute;
+  top: 16px;
+  left: 135px;
+  font-weight: 900;
+}
+
+.wrap:hover {
+  color: rgb(16, 161, 16);
+}
+
+.div {
+  text-align: right;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  text-decoration: none;
+  color: #000;
+  position: absolute;
+  top: 60px;
+  left: 350px;
+}
+
+.div:hover {
+  color: red;
+  text-decoration: overline;
+}
+
+.div1 {
+  text-align: right;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  text-decoration: none;
+  color: #000;
+  position: absolute;
+  top: 60px;
+  left: 450px;
+}
+
+.div1:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+.div2 {
+  text-align: right;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  text-decoration: none;
+  color: #000;
+  position: absolute;
+  top: 60px;
+  left: 580px;
+}
+
+.div2:hover {
+  color: red;
+  text-decoration: overline;
+}
+
+.BTN {
+  width: 138px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 2px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: #000;
+  color: #fff;
+  font-size: 26px;
+  position: absolute;
+  top: 50px;
+  left: 1300px;
+}
+
+.BTN:hover {
+  background: red;
+  color: blueviolet;
+  border: 2px solid blue;
+  border-radius: 10px;
+}
+
+.par {
+  width: 835px;
+  height: 925px;
+  background: rgba(231, 212, 190, 0.44);
+}
+
+main {
+  display: flex;
+  margin-top: 130px;
+}
+
+.rasm {
+  width: 835px;
+}
+
+.rasm:hover {
+  border: solid 3px blue;
+  border-radius: 20px;
+}
+
+.bugdoy {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 150px;
+}
+
+.yil {
+  color: #000;
+  font-family: Oswald;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 230px;
+  left: 130px;
+}
+
+.yil:hover {
+  color: red;
+}
+
+.nonvoy {
+  display: flex;
+  width: 467px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Ultra;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 80px;
+  position: absolute;
+  top: 220px;
+  left: 130px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.nonvoy:hover {
+  color: darkblue;
+  font-weight: 900;
+}
+
+.ushoq {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 255px;
+  left: 310px;
+}
+
+.event {
+  position: absolute;
+  top: 530px;
+  left: 130px;
+  display: flex;
+  width: 470px;
+  height: 70px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #000;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.event:hover {
+  color: darkred;
+}
+
+.katta {
+  color: #171B1B;
+  font-family: Oswald;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 1200px;
+  left: 735px;
+  text-decoration: none;
+}
+
+.katta:hover {
+  color: orange;
+  text-decoration: underline;
+}
+
+.hada {
+  display: flex;
+  width: 570px;
+  height: 131px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #171B1B;
+  font-family: Ultra;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+  position: absolute;
+  top: 1250px;
+  left: 735px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.hada:hover {
+  color: dodgerblue;
+}
+
+.orqa {
+  position: absolute;
+  top: 1300px;
+  left: 200px;
+}
+
+.non {
+  position: absolute;
+  top: 1200px;
+  left: 200px;
+}
+
+.non:hover {
+  border: solid 2px blue;
+  border-radius: 12px;
+}
+
+.birmap {
+  position: absolute;
+  top: 1400px;
+  left: 260px;
+}
+
+.birmap:hover {
+  border: solid 2px blue;
+  border-radius: 12px;
+}
+
+.nol {
+  position: absolute;
+  top: 1500px;
+  left: 810px;
+}
+
+.nol:hover {
+  color: red;
+  font-weight: 900;
+}
+
+.otgan {
+  color: #171B1B;
+  font-family: Oswald;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  position: absolute;
+  top: 1530px;
+  left: 810px;
+}
+
+.otgan:hover {
+  color: indianred;
+}
+
+.shi {
+  display: flex;
+  width: 370px;
+  height: 93px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: rgba(51, 51, 51, 0.5);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  position: absolute;
+  top: 1590px;
+  left: 810px;
+}
+
+.shi:hover {
+  color: coral;
+}
+
+.on {
+  color: #171B1B;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  position: absolute;
+  top: 1690px;
+  left: 810px;
+}
+
+.on:hover {
+  color: gold;
+}
+
+.on1 {
+  color: #171B1B;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  position: absolute;
+  top: 1730px;
+  left: 810px;
+}
+
+.on1:hover {
+  color: gold;
+}
+
+.on2 {
+  color: #171B1B;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  position: absolute;
+  top: 1770px;
+  left: 810px;
+}
+
+.on2:hover {
+  color: gold;
+}
+
+.knopka {
+  position: absolute;
+  top: 1565px;
+  left: 730px;
+}
+
+.com {
+  position: absolute;
+  top: 1230px;
+  left: 590px;
+}
+
+.com1 {
+  position: absolute;
+  top: 1600px;
+  left: 125px;
+}/*# sourceMappingURL=task.css.map */
